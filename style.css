@@ -1,0 +1,342 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin:0;
+}
+
+nav {
+	background-color:lightblue; 
+	position: fixed;
+	width: 100%;
+	background-attachment: cover;
+	margin: 0;
+	top: 0;
+	
+	
+}
+nav:after{
+	content:"";
+	display:block;
+	clear: both;
+}
+.play-one {
+	margin-top: 70px;
+	margin-left: 10px;
+}
+
+.logo {
+	float:left;
+	color:#333;
+	margin:20px 0 16px 50px;
+	text-transform:uppercase;
+	font-weight:900;
+	font-family:Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
+}
+
+.logo, .menu {
+	display:inline-block;
+}
+
+.menu{
+	float:right;
+	margin:20px;
+}
+.menu ul {
+	list-style: none;
+	padding-left:0;
+	margin:0;
+}
+
+.menu ul li {
+	display: inline-block;
+	font-family: sans-serif;
+	margin-right: 15px;
+}
+
+.menu ul li a {
+	text-decoration:none;
+	color:black;
+	padding:20px 15px;
+	font-weight: 900;
+	
+}
+
+.menu ul li a:hover {
+	background-color:#E959DB;
+	color:white;
+	transition:all 0.5s ease;
+}
+/* HEADER(HERO) SECTION STARTS */
+
+header {
+	background-image:url(../Proje-Egitim/images/scott-webb-81745-unsplash.jpg);
+	height:500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: -160px;
+	
+	
+}
+
+header p{
+	margin-top:0 ;
+}
+
+.hero-container {
+	text-align: right;
+	padding-top: 200px;}
+
+.hero-container p{
+	color: black;
+	font-family:"bad-script";
+	font-weight: 100%;
+	font-size: 20px;
+	margin-right:15%;
+
+	
+}
+.hero-container h2{
+	color: black;
+	font-family:"bad-script";
+	font-weight: 100%;
+	font-size: 20px;
+	margin-right:20%;
+
+
+}
+.btn-Mycv{
+	background-color: #C30097;
+	color: white;
+	margin: 10px 15px;
+	border:2px solid white;
+	margin-right: 2%;
+	
+}
+.btn-cv, .btn-Myemail{
+	padding: 10px 25px;
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: none;
+	font-family:font Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	border-radius: 20px;
+	
+
+	
+}
+.btn-Mycv:hover{
+	background: white;
+	color: #C30097;
+	transition: all .5s ease;
+	border-color: #C30097;
+}
+.btn-Myemail{
+	background-color: #C30097;
+	color: white;
+	margin: 10px 15px;
+	border:2px solid white;
+	margin-right: 17%;
+	
+}
+
+
+.btn-Mycv, .btn-Mycv{
+	padding: 12px 20px;
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	border-radius: 20px;
+	
+}
+	
+.btn-Myemail:hover{
+	background: white;
+	color: #C30097;
+	transition: all .5s ease;
+	border-color: #C30097;
+}
+
+.about-me{
+	width: 100%;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.about-me h2{
+	text-align: center;
+	font-size: 30px;
+	
+	
+}
+.about-me:after{
+	content: '';
+	
+	clear: both;
+}
+.col-left .photo{
+	float:left;
+padding:0 10px 10px 0;
+	
+	
+}
+.col-left_theme{
+	background-color: antiquewhite;
+}
+.col-left_theme .photo_theme{
+	float:left;
+padding:0 10px 10px 0;
+	margin:0;
+	max-width: 100%;
+  height:300px;
+	
+}
+.col-rigth_theme .photo_theme{ 
+	float:right;
+padding:0 10px 10px 0;
+	margin:0;
+	max-width: 100%;
+  height:300px;
+position: absolute;
+	left:100%;
+}
+
+
+
+.my-world{
+	background-color: #e2e2e2;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	
+}
+.my-world h2{
+	text-transform: uppercase;
+	position: relative;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+}
+.my-world h2:after{
+	content: "";
+	position: absolute;
+	width: 80px;
+	height: 2px;
+	margin-left: 340px;
+	left:50%;
+	bottom: 0px;
+	background-color: #85af4b;
+	margin-top: 35px;
+		
+}
+.my-world:after{
+	content: "";
+	display: block;
+	clear: both;
+		
+}
+.fa {
+    padding: 20px;
+	margin-left:0;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+	
+	
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.about-me{
+	width: 100%;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.about-me h2{
+	text-align: center;
+	font-size: 30px;
+	
+	
+	
+}
+.about-me:after{
+	content: '';
+	
+	clear: both;
+}
+.col-left .photo{
+	float:left;
+padding:0 10px 10px 0;
+	margin:0;
+	max-width: 100%;
+  height:570px;
+  
+	/*margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;*/
+}
+
+.source li .source1{
+	background-color: red;
+	text-decoration: none;
+	color:black;
+	border-color: aqua;
+	border-radius: 500px;
+	padding: 5px;
+	list-style: none;
+	list-style-type: none;
+text-transform: uppercase;
+	display: inline-block;
+	
+}
+.source{
+	list-style: none;
+	display: inline-block;
+	
+}
+.source li .source1:hover{
+	color: orange;
+	border-color: blue;
+	border-radius: 500px;
+	padding:5px;
+	text-transform: lowercase;
+
+}
+
+
+
+/*practice page start here */
+
+.practice_grap img{
+	width: 1000px;
+	height: 500px;
+	margin-top: 0;
+	padding-top: 0;
+}
+.practice_grap h2{
+	margin:100px;
+	font-size: 40px;
+	text-transform: uppercase;	
+}
+
+
+
+
